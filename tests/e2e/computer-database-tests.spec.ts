@@ -32,7 +32,7 @@ test.describe('Test suite for computer database webpage', () =>{
         
     });
 
-    test('Test to add new computer', async ({ page }) => {
+    test('Test to add a new computer', async ({ page }) => {
         await page.goto('/');
         await page.getByRole('link', { name: 'Add a new computer' }).click();
         await page.getByLabel('Computer name').click();
@@ -53,7 +53,7 @@ test.describe('Test suite for computer database webpage', () =>{
 
 
     data.forEach((computer) => {
-        test(`Test for adding computer: ${computer.computerName} to a webpage`, async ({ page }) => {
+        test(`Test to add 5 computers: ${computer.computerName} to a webpage`, async ({ page }) => {
             await page.goto('/');
             await page.getByRole('link', { name: 'Add a new computer' }).click();
             await page.getByLabel('Computer name').click();

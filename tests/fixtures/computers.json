@@ -1,0 +1,32 @@
+[
+    {
+        "computerName": "DIMI01",
+        "introduced": "2024-06-30",
+        "discontinued": "2026-06-30",
+        "company": "1"
+    },
+    {
+        "computerName": "DIMI02",
+        "introduced": "2024-06-30",
+        "discontinued": "2026-06-30",
+        "company": "2"
+    },
+    {
+        "computerName": "DIMI03",
+        "introduced": "2024-06-30",
+        "discontinued": "2026-06-30",
+        "company": "3"
+    },
+    {
+        "computerName": "DIMI04",
+        "introduced": "2024-06-30",
+        "discontinued": "2026-06-30",
+        "company": "4"
+    },
+    {
+        "computerName": "DIMI05",
+        "introduced": "2024-06-30",
+        "discontinued": "2026-06-30",
+        "company": "5"
+    }
+]
